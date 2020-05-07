@@ -1,0 +1,54 @@
+{
+    "entity": "event",
+    "account_id": "acc_EnbH0KSxAyZniv",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_EncIEhvFuIoJ9I",
+                "entity": "payment",
+                "amount": 49900,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_EncHzzi3wdb9zt",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you for nothing. Please give us some money",
+                "card_id": "card_EncIEnwnpUqEVW",
+                "card": {
+                    "id": "card_EncIEnwnpUqEVW",
+                    "entity": "card",
+                    "name": "Mehul",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "sdfdsjfh2@ndsfdf.com",
+                "contact": "+9134234324234",
+                "notes": [],
+                "fee": 998,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "created_at": 1588887134
+            }
+        }
+    },
+    "created_at": 1588887136
+}
